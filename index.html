@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmojiPedia</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- <header>
+        <div>😎 <span>EmojiPedia</span></div>
+    </header> -->
+
+    <header>
+        <img src="smile.png" alt="Emoji" style="height: 80px; margin-right: 10px;">
+        <span>EmojiPedia</span>
+    </header>
+
+    <div class="container">
+        <h2>Click an emoji to learn more about it!</h2>
+
+        <div class="emoji-grid" id="emoji-grid">
+            <!-- Emojis will be populated dynamically -->
+        </div>
+          
+        <div id="description" class="description" style="display: none;">
+            <p id="emoji-symbol" style="font-size: 3em; margin: 0;"></p>
+            <p id="emoji-name" style="font-weight: bold; margin: 10px 0 5px;"></p>
+            <p id="emoji-meaning" style="margin: 0;"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
